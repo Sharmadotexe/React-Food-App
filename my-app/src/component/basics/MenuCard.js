@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const MenuCard = ({ menuData }) => {
     // console.log(menuData)
 
@@ -26,7 +27,7 @@ const MenuCard = ({ menuData }) => {
                                             <div className='card-read'>
                                                 Read
                                             </div>
-                                            {/* <img src = {image} className='card-media'></img> */}
+                                            <img src = {image} className='card-media'></img>
                                             <span className='card-tag subtle'>Order now</span>
                                         </div>
                                     </div>
